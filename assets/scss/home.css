@@ -1,0 +1,170 @@
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: white;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
+.slider-home {
+  position: relative;
+}
+
+.next-slider {
+  text-align: center;
+  margin-top: -32px;
+  /* position: absolute;
+  bottom: 6vh;
+  left: 77vh; */
+}
+
+.pading {
+  padding-top: 15vh;
+}
+
+.navbar-expand-lg {
+  box-shadow: rgb(226 226 226) 0px 0px 3px 1px;
+  background-color: white !important;
+  box-shadow: rgb(226 226 226) 0px 0px 3px 3px;
+}
+
+.our-image {
+  width: 150px;
+  border-radius: 80px;
+  overflow: hidden;
+  height: 150px;
+  zoom: 1;
+}
+
+.bg-oursource {
+  background: #73bfe6;
+
+}
+
+.bg-app {
+  background: #2185b9;
+}
+
+.bg-game {
+  background: #19668d;
+}
+
+.font-size-des {
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.bg-footer {
+  background: #2c3236;
+  color: #6b7c88;
+}
+
+.icon-mxh:hover {
+  color: white !important;
+}
+
+.singup {
+  display: flex;
+  height: 45px;
+}
+
+.form-control {
+  border-radius: 30px;
+  width: 35% !important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bt-send {
+  border-radius: 34;
+}
+
+.pd-about {
+  padding: 19vh 28vh 4vh 28vh;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border-bottom: 2px solid transparent;
+  padding: 23px 5px 21px;
+}
+
+.pd-about tbody td {
+  vertical-align: top;
+}
